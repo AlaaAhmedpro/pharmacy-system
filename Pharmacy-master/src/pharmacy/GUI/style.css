@@ -1,0 +1,318 @@
+@font-face{
+    font-family: "Cairo Light";
+    src: url("fonts/Cairo.ttf");
+}
+
+Pane, Label, Button {
+    -fx-font-family: "Cairo Light";
+}
+
+
+
+TextField, PasswordField {
+    -fx-padding: 14px 14px 14px 55px;
+    -fx-border-color: #e9e9e9;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+    -fx-background-color: #fff;
+    -fx-font-family: "Cairo Light";
+    -fx-background-radius: 4px;
+}
+
+#Login {
+    -fx-padding: 14px;
+    -fx-background-color:linear-gradient(#55d3ce, #62c4cb);
+    -fx-text-inner-color: white;
+    -fx-border-radius: 4px;
+    -fx-font-family: "Cairo Light";
+    -fx-text-fill: #fff;
+}
+
+#grad {
+    -fx-Background-color : linear-gradient(from 75% 0% to 100% 100% , #fffef1, #cfe8e8);
+}
+
+#Register {
+    -fx-padding: 14px;
+    -fx-background-color: #696578;
+    -fx-text-inner-color: white;
+    -fx-border-radius: 4px;
+    -fx-font-family: "Cairo Light";
+    -fx-text-fill: #fff;
+}
+
+#closeBtn {
+    -fx-padding: 4px 26px;
+    -fx-background-color: #696578;
+    -fx-text-inner-color: white;
+    -fx-border-radius: 4px;
+    -fx-font-family: "Cairo Light";
+    -fx-text-fill: #fff;
+}
+
+
+#error {
+    -fx-font-family: "Cairo Light";
+}
+
+#Pane {
+    -fx-background-color: #fff;
+}
+
+
+#Sidebar {
+    -fx-background-color: #444052;
+    -fx-text-fill: #fff;
+    -fx-font-family: "Cairo Light";
+}
+
+#UserArea , #CartArea {
+    -fx-min-height: 80;
+    -fx-min-width: 250;
+    -fx-background-color: #353143;
+}
+
+#username, #mycart {
+    -fx-text-fill: #fff;
+}
+
+#cat {
+    -fx-background-color: transparent;
+    -fx-text-fill: #fff;
+    -fx-alignment: CENTER-LEFT;
+}
+
+#Panel {
+    -fx-font-family: "Cairo Light";
+    -fx-background-color: #fff;
+}
+
+#Page1 {
+    -fx-background-color: #fff;
+    -fx-min-width: 660;
+    -fx-min-height: 600;
+}
+
+#Page2 {
+    -fx-background-color: #fff;
+    -fx-min-width: 660;
+    -fx-min-height: 600;
+}
+
+#Page3 {
+    -fx-background-color: #fff;
+    -fx-min-width: 660;
+    -fx-min-height: 600;
+}
+
+#Page4 {
+    -fx-background-color: #fff;
+    -fx-min-width: 660;
+    -fx-min-height: 600;
+}
+
+#Page5 {
+    -fx-background-color: #fff;
+    -fx-min-width: 660;
+    -fx-min-height: 600;
+}
+
+#topPage {
+    -fx-background-color: #f6f5f8;
+    -fx-min-height: 80;
+    -fx-min-width: 660;
+}
+
+
+#topPage2 {
+    -fx-background-color: #f6f5f8;
+    -fx-min-height: 80;
+    -fx-min-width: 910;
+}
+
+#Title {
+    -fx-text-fill: #1a1034;
+}
+
+#confirm {
+    -fx-background-color: #4fcc4d;
+    -fx-text-fill: #fff;
+}
+
+
+#addtocartBtn {
+    -fx-background-color: #4fcc4d;
+    -fx-text-fill: #fff;
+}
+
+#cancel {
+    -fx-background-color: #cc1930;
+    -fx-text-fill: #fff;
+    -fx-cursor: pointer;
+}
+
+#cancel2 { /*Edited*/
+    -fx-background-color: #cc1930;
+    -fx-text-fill: #fff;
+    -fx-padding: 20px 0px;
+}
+
+ChoiceBox {
+    -fx-mark-color: #ccc;
+    -fx-padding: 9px 0px 9px 0px;
+    -fx-border-color: #e9e9e9;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+    -fx-background-color: #fff;
+    -fx-font-family: "Cairo Light";
+    -fx-background-insets: 0 !important;
+    -fx-background-radius: 4px;
+}
+
+#gender {
+    -fx-padding: 9px 0px 9px 45px !important;
+    -fx-text-fill: #b2b2b2;
+}
+
+#submit {
+    -fx-background-color: #4fcc4d;
+    -fx-text-fill: #fff;
+    -fx-padding: 20px 0px;
+}
+
+#DetailsBtn {
+    -fx-background-color: #4fcc4d;
+    -fx-text-fill: #fff;
+    -fx-padding: 12px 40px;
+}
+
+#edit { /*Edited*/
+    -fx-background-color: #444052;
+    -fx-text-fill: #fff;
+    -fx-padding: 20px 0px;
+}
+
+
+.table-view{
+    -fx-background-color: #fff;
+    -fx-border-color: #e7e7f0;
+    -fx-border-width: 1px 1px 1px 1px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-alignment: CENTER-RIGHT;
+}
+
+.table-view:focused{
+    -fx-background-color: #fff;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #f6f5f8;
+    -fx-font-weight: normal !important;
+    -fx-text-fill: #fff;
+    -fx-padding: 10px;
+    -fx-label-padding: 10px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #444052;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-padding: 6px;
+    -fx-label-padding: 6px;
+    -fx-font-weight: normal !important;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #000000;
+    -fx-alignment: CENTER;
+    -fx-padding: 6px;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #ffffff;
+    -fx-table-cell-border-color:#f6f5f8;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-alignment: CENTER;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #fdf8d1;
+    -fx-text-fill: #fff;
+    -fx-background-insets: 0;
+}
+
+#cartTable .table-view {
+    -fx-border-width: 0px !important;
+    -fx-background-color: #fff !important;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+#cartTable .table-column-header-background , #cartTable .table-column-header {
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.table-view *.scroll-bar *.increment-button,
+.table-view *.scroll-bar *.decrement-button {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.table-view *.scroll-bar *.increment-arrow,
+.table-view *.scroll-bar *.decrement-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: null;
+}
+
+#tab {
+    -fx-background-color: #e7e7f0;
+    -fx-text-fill: #696578;
+}
+
+#btntotalOrders {
+    -fx-background-color: #43b77a;
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-color: rgb(0 , 0 , 0 , .1);
+    -fx-text-fill: #fff;
+    -fx-border-radius: 5px;
+}
+
+#btntotalSales {
+    -fx-background-color: #7dccc7;
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-color: rgb(0 , 0 , 0 , .1);
+    -fx-text-fill: #fff;
+    -fx-border-radius: 5px;
+}
+
+#btntopCustomer {
+    -fx-background-color: #7fa8d7;
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-color: rgb(0 , 0 , 0 , .1);
+    -fx-text-fill: #fff;
+    -fx-border-radius: 5px;
+} 
+
+#btntopProduct {
+    -fx-background-color: #5776b6;
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-color: rgb(0 , 0 , 0 , .1);
+    -fx-text-fill: #fff;
+    -fx-border-radius: 5px;
+}
